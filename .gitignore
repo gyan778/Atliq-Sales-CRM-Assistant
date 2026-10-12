@@ -1,0 +1,18 @@
+# Secrets — never commit (API keys, demo password, session secret)
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# OS / editor / Office temp files
+.DS_Store
+Thumbs.db
+~$*
+*.log

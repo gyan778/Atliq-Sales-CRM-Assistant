@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "kaizen-copilot",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "kaizen-copilot", "run", "dev"],
+      "port": 3000
+    }
+  ]
+}

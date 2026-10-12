@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-10-11T11:53:27.921Z",
+  "model": "gpt-6-luna",
+  "sourcesProcessed": 50,
+  "accountMatch": {
+    "expected": 52,
+    "found": 52,
+    "rate": 1
+  },
+  "signalRecall": {
+    "expected": 63,
+    "found": 62,
+    "rate": 0.9841269841269841
+  },
+  "byCategory": {
+    "revisit": {
+      "expected": 3,
+      "found": 3
+    },
+    "promise": {
+      "expected": 16,
+      "found": 16
+    },
+    "risk": {
+      "expected": 3,
+      "found": 3
+    },
+    "request": {
+      "expected": 13,
+      "found": 12
+    },
+    "deadline": {
+      "expected": 12,
+      "found": 12
+    },
+    "cross_sell": {
+      "expected": 7,
+      "found": 7
+    },
+    "new_lead": {
+      "expected": 5,
+      "found": 5
+    },
+    "renewal": {
+      "expected": 1,
+      "found": 1
+    },
+    "ambiguity": {
+      "expected": 3,
+      "found": 3
+    }
+  },
+  "groundedness": {
+    "itemsChecked": 375,
+    "blockedNoEvidence": 3,
+    "blockedInvalidValue": 0,
+    "verifiedRate": 0.992
+  },
+  "scenarios": [
+    {
+      "name": "Northwind: overdue promise on samples",
+      "pass": true
+    },
+    {
+      "name": "Northwind: dashboard cross-sell surfaced",
+      "pass": true
+    },
+    {
+      "name": "Meridian: client waiting on proposal answers",
+      "pass": true
+    },
+    {
+      "name": "Meridian: L-1027 flagged as duplicate",
+      "pass": true
+    },
+    {
+      "name": "GlobalMart: L-1040 flagged as duplicate",
+      "pass": true
+    },
+    {
+      "name": "Harbor & Finch: found as a lead missing from Kaizen",
+      "pass": true
+    },
+    {
+      "name": "Quantia: lost deal revisit surfaced",
+      "pass": true
+    },
+    {
+      "name": "NovaPharma: questionnaire deadline surfaced",
+      "pass": true
+    },
+    {
+      "name": "MedTrack: unclear need held for clarification",
+      "pass": true
+    },
+    {
+      "name": "FinEdge ($95K): client waiting surfaced",
+      "pass": true
+    },
+    {
+      "name": "Nothing written to Kaizen without approval (fields unchanged)",
+      "pass": true
+    },
+    {
+      "name": "Answer key never shown to the AI",
+      "pass": true
+    }
+  ],
+  "usage": {
+    "inputTokens": 122886,
+    "outputTokens": 78699
+  },
+  "misses": [
+    {
+      "sourceId": "2026-07-08_eduspark_website_enquiry",
+      "account": "L-1010",
+      "missing": "request"
+    }
+  ]
+}
